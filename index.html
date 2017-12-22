@@ -4,10 +4,38 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+      .user-details {
+        color: gray;
+      }
     </style>
   </head>
   <body>
+    <div class="flex flex-column items-center">
+      <div style="width: 600px">
+        <div class="flex border-bottom">
+          <img class="rounded mt2 mb3 mr2" src="http://i.imgur.com/KveOp9g.png" alt="Scrappy-Doo">
+          <div class="flex flex-column">
+            <h4 class="mt2 mb1">Scrappy-Doo <span class="user-details">@ScrappyDoo - December 24</span></h4>
+            <p class="mt2 mb1">Thanks to the wonderful @learn_co community for helping me solve "Tic Tac Toe Move! I would not have been able to do it without you guys!</p>
+          </div>
+        </div>
 
+        <div class="flex border-bottom">
+          <img class="rounded mt2 mb3 mr2" src="http://i.imgur.com/KveOp9g.png" alt="Scrappy-Doo">
+          <div class="flex flex-column">
+            <h4 class="mt2 mb1">Flatiron School <span class="user-details">@FlatironSchool - December 22</span></h4>
+            <p class="mt2 mb1">"How I learned to stop worrying and just commit (code)." Great post by @learn_co student</p>
+          </div>
+        </div>
+
+        <div class="flex">
+          <img class="rounded mt2 mb3 mr2" src="http://i.imgur.com/KveOp9g.png" alt="Scrappy-Doo">
+          <div class="flex flex-column">
+            <h4 class="mt2 mb1">TechCrunch <span class="user-details">@TechCrunch - December 21</span></h4>
+            <p class="mt2 mb1">Flatiron School teams up with Re:Coded to help Syrian refugees learn to code</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
